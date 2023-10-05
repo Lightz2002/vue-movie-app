@@ -1,5 +1,7 @@
+import { Genre } from "./IGenre";
+import { MoviePagination } from "./IMoviePagination";
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
-interface MovieGenres {
+export interface MovieGenres {
   movies: MoviePagination;
   genres: Genre;
 }
